@@ -1,0 +1,7 @@
+foo:-webkit-full-screen, foo:-moz-full-screen, foo:fullscreen {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -moz-appearance: none;
+  appearance: none;
+}
