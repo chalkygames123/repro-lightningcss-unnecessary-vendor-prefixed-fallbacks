@@ -3,7 +3,8 @@
 		"chrome:newer": "lightningcss --targets 'chrome >= 100' input.css --output-file chrome.newer.output.css",
 		"firefox:newer": "lightningcss --targets 'firefox >= 98' input.css --output-file firefox.newer.output.css",
 		"chrome:older": "lightningcss --targets 'chrome < 100' input.css --output-file chrome.older.output.css",
-		"firefox:older": "lightningcss --targets 'firefox < 98' input.css --output-file firefox.older.output.css"
+		"firefox:older": "lightningcss --targets 'firefox < 98' input.css --output-file firefox.older.output.css",
+		"mobile": "lightningcss --targets 'samsung < 15, firefoxandroid < 107' input.css --output-file mobile.output.css"
 	},
 	"devDependencies": {
 		"lightningcss-cli": "^1.17.1"
